@@ -9,13 +9,13 @@ services:
       POSTGRES_DB: students_db
     ports:
       - "5432:5432"
-#  students-service:
-#    build:
-#      context: .
-#      dockerfile: Dockerfile
-#    image: students-service:latest
-#    container_name: students-service
-#    ports:
-#      - "8080:8080"
-#    depends_on:
-#      - postgres
+  students-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: students-service:latest
+    container_name: students-service
+    ports:
+      - "8080:8080"
+    depends_on:
+      - postgres

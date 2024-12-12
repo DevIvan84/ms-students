@@ -94,7 +94,7 @@
 					<archive>
 						<manifest>
 							<addDefaultImplementationEntries>true</addDefaultImplementationEntries>
-							<mainClass>com.ms.students.app.StudentsServiceApplication</mainClass>
+							<mainClass>com.ms.students.app.StudentServiceApplication</mainClass>
 						</manifest>
 					</archive>
 				</configuration>

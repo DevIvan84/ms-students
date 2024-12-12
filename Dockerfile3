@@ -1,0 +1,8 @@
+ARG MS_NAME=students_service
+
+FROM openjdk:21 AS build-image-stage
+
+ARG MS_NAME
+
+WORKDIR /app/$MS_NAME
+
